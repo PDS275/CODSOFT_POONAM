@@ -14,7 +14,7 @@ def remove_task():
     except:
         messagebox.showwarning("Warning", "Please select a task to remove!")
 root = tk.Tk()
-root.title("To-Do List")
+root.title("To-Do-List")
 task_list = tk.Listbox(root, height=10, width=50)
 task_list.pack(pady=10)
 task_entry = tk.Entry(root, width=40)
